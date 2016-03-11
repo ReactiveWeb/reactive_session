@@ -31,8 +31,7 @@ defmodule ReactiveSession.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:reactive_entity, github: "ReactiveWeb/reactive_entity"},
-      {:reactive_db, github: "ReactiveWeb/reactive_db"},
+      {:reactive_entity, git: "git@bitbucket.org:ScalableEngineering/reactive-entity.git"},
       {:mailgun, "~> 0.1.1"},
       {:httpoison, "~> 0.7.2"}
     ]
